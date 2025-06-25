@@ -1,0 +1,38 @@
+{
+  "name": "slack-padel-bot",
+  "version": "3.1.0",
+  "description": "A Slack bot to schedule and manage Padel game sign-ups with Firestore and Google Cloud Scheduler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "padel",
+    "scheduler",
+    "mongodb",
+    "app engine",
+    "weather",
+    "axios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "axios": "^1.7.2",
+    "chrono-node": "^2.8.3",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.7.0",
+    "googleapis": "^140.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
